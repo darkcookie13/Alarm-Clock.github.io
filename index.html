@@ -1,0 +1,36 @@
+ <html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>ALARM CLOCK</title>
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+<!-- First start with the basic structure of alarm clock -->
+    <body>
+        <div class="clock">
+           <h1>00:00:00AM</h1>
+           <!-- The hour minute and second bar -->
+           <div class="content">
+            <div class="column">
+            <select>
+                <option value="Hour" selected hidden>Hour</option>
+            </select>
+           </div>
+           <div class="column">
+            <select>
+                <option value="Minute" selected hidden>Minute</option>
+            </select>
+           </div>
+           <div class="column">
+            <select>
+                <option value="AM/PM" selected hidden>AM/PM</option>
+            </select>
+           </div>
+        </div>
+        <!-- Alarm Button to set the alarm -->
+        <button>Set Alarm</button>
+        </div>
+
+        <script src="alarm.js"></script>
+    </body>
+ </html>
